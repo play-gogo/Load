@@ -5,7 +5,9 @@ description = "Default template for PDM package"
 authors = [
     {name = "sooj1n", email = "sujin19371@gmail.com"},
 ]
-dependencies = []
+dependencies = [
+    "transform @ git+https://github.com/play-gogo/transform.git@sunwoo/d1.0.0",
+]
 requires-python = ">=3.9"
 readme = "README.md"
 license = {text = "MIT"}
@@ -15,4 +17,4 @@ license = {text = "MIT"}
 distribution = true
 
 [project.scripts]
-ice = "load.cli:ice_breaking" 
+ice = "load.cli:ice_sj"
