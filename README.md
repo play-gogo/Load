@@ -4,12 +4,11 @@
   
 ## 설치방법
 ```python
-pip install git+https://github.com/play-gogo/load.git@dev/ice
-```
+pip install git+https://github.com/play-gogo/load.git@dev/d1.0.0
 
 ## pdm 가상환경에서 설치방법
 ```python
-pdm add git+https://github.com/play-gogo/load.git@dev/ice
+pdm add git+https://github.com/play-gogo/load.git@dev/d1.0.0
 ```
 
 ## 호출방법
