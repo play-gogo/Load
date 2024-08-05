@@ -2,8 +2,7 @@ from transform.transform import transform
 import pandas as pd
 
 
-def load(load_dt='20200101'):
+def load(load_dt):
     df = transform(load_dt)
     df.to_parquet("~/code/playgogo/storage", partition_cols=['load_dt'])
     
-load()
