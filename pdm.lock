@@ -316,7 +316,7 @@ version = "2.1.0"
 requires_python = ">=3.9"
 git = "https://github.com/play-gogo/transform.git"
 ref = "d2.0.0/test"
-revision = "217dd1f3122ccaf2655da86a4b4592e50887dcf9"
+revision = "03288385ed433a4686d4b89bf24360879dd32152"
 summary = "Default template for PDM package"
 groups = ["default"]
 dependencies = [
