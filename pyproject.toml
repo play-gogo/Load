@@ -1,12 +1,13 @@
 [project]
 name = "Load"
-version = "0.1.0"
+version = "2.1.0"
 description = "Default template for PDM package"
 authors = [
     {name = "sooj1n", email = "sujin19371@gmail.com"},
 ]
 dependencies = [
-    "transform @ git+https://github.com/play-gogo/transform.git@sunwoo/d1.0.0",
+    "pyarrow>=17.0.0",
+    "transform @ git+https://github.com/play-gogo/transform.git@d2.0.0/test",
 ]
 requires-python = ">=3.9"
 readme = "README.md"
@@ -17,4 +18,7 @@ license = {text = "MIT"}
 distribution = true
 
 [project.scripts]
-ice = "load.cli:ice_sj"
+load_data = 'load.load:load'
+
+[tool.pytest.ini_options]
+pythonpath = [".", "src"]
