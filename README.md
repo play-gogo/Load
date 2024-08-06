@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-#Load
-#release/d3.0.0
-=======
 # Box Office Data Retrieval
 - 이 패키지는 변환된 데이터를 /tmp/load 경로에 parquet파일로 저장하는 작업을 수행합니다. 이 문서에서는 사용 방법, 설치 요구 사항, 그리고 각 함수의 설명을 제공합니다.
   
@@ -27,4 +23,3 @@ pdm add git+https://github.com/play-gogo/load.git@d2/0.1.0
 ```bash
 $ load_data
 ```
->>>>>>> main
